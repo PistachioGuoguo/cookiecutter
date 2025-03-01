@@ -1,14 +1,5 @@
 ## `{{cookiecutter.project_slug}}`
 
-
-## Initial Conda Setup
-
-```sh
-conda config --show
-conda config --add channels conda-forge
-conda install mamba
-```
-
 ## Development Environment
 
 We use [conda](https://conda.io/) as a package and environment manager.
