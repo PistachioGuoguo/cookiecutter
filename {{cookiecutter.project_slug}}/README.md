@@ -8,13 +8,12 @@ We use [conda](https://conda.io/) as a package and environment manager.
 2. Activate the environment.
 3. Install required packages with `bootstrap`.
 4. Install this package in `develop` mode.
-5. Install [git](https://git-scm.com/) `hooks`.
-6. List available tasks.
+5. List available tasks.
 
 ```sh
 $ conda create -n {{cookiecutter.project_slug}} python=3.12 invoke --yes
 $ conda activate {{cookiecutter.project_slug}}
-$ invoke bootstrap develop hooks
+$ invoke bootstrap develop
 $ invoke --list
 ```
 
